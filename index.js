@@ -29,7 +29,7 @@ function downloadLecture(lecture) {
         setTimeout(function(){
                         document.querySelector(".menu.open>.menu-items>ul>li:nth-child(2)>a").click();
                         setTimeout(function(){
-                                        document.querySelector(".downloadOptions select").selectedIndex = 1;
+                                        document.querySelector(".downloadOptions select").selectedIndex = 0;
                                         let lclass = lecture.querySelector("header div").innerText;
                                         let ltime = lecture.querySelector(".time").innerText;
                                         let ldate = lecture.querySelector(".date").innerText;
